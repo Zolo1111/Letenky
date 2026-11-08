@@ -22,7 +22,7 @@ import requests
 # v prehliadači (musí sa zobraziť XML s ponukami).
 FEEDS = [
      "https://www.secretflying.com/feed/",   # over, či funguje
-    # "https://www.fly4free.com/feed/",        # over, či funguje
+    "https://www.fly4free.com/feed/",        # over, či funguje
 ]
 
 # Odlet - aspoň jedno z týchto slov musí byť v texte ponuky
