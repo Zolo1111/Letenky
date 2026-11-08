@@ -21,7 +21,7 @@ import requests
 # skús pripísať /feed/ k adrese. Pred použitím si každú adresu over
 # v prehliadači (musí sa zobraziť XML s ponukami).
 FEEDS = [
-    # "https://www.secretflying.com/feed/",   # over, či funguje
+     "https://www.secretflying.com/feed/",   # over, či funguje
     # "https://www.fly4free.com/feed/",        # over, či funguje
 ]
 
