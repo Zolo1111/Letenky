@@ -93,7 +93,7 @@ def match(entry):
     if not contains_any(text, ORIGIN_KEYWORDS):
         return None
     airlines = [name for name, kws in AIRLINES.items() if contains_any(text, kws)]
-    if not airlines:
+    if False:
         return None
     if ASIA_ONLY and not contains_any(text, ASIA_KEYWORDS):
         return None
